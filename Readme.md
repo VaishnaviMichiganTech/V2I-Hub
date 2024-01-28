@@ -4,6 +4,12 @@ https://github.com/usdot-fhwa-OPS/V2X-Hub
 
 # Project Description
 
+Comments:Vaishnavi ==> This Repository runs on Ubuntu 22.04
+Test-V2Ihub- steps:
+Step1: Fork the from original repository
+Step2: Launch Admin Portal, Login using admin user id and password
+Step3: Upload Message ReceiverPlugin
+
 V2I Hub
 
 V2I Hub was developed to support jurisdictions in deploying connected vehicle technology by reducing 
