@@ -33,10 +33,26 @@ HistoryManager::HistoryManager(MessageRouter *messageRouter) : Plugin(messageRou
 	info.pluginInfo.name = "ivpcore.HistoryManager";
 	info.pluginInfo.description = "Core element that is responsible for purging old log and history data";
 	info.pluginInfo.version = IVPCORE_VERSION;
+	
+	ostringstream oss;
+        oss << HISTORYPURGER_CONFIGDFLT_PURGEINTERVAL;
+        std::string purgeIntervalStr = oss.str();
 
-	info.configDefaultEntries.push_back(PluginConfigurationParameterEntry(HISTORYPURGER_CONFIGKEY_PURGEINTERVAL,
-			static_cast<ostringstream*>( &(ostringstream() << HISTORYPURGER_CONFIGDFLT_PURGEINTERVAL) )->str(),
-			"Interval between purges of history items"));
+	//info.configDefaultEntries.push_back(PluginConfigurationParameterEntry(HISTORYPURGER_CONFIGKEY_PURGEINTERVAL,
+	
+	//MODIFICATIONS:vaishnavi
+	
+	
+	
+	//old line: static_cast<ostringstream*>( &(ostringstream() << HISTORYPURGER_CONFIGDFLT_PURGEINTERVAL) )->str(),
+//			"Interval between purges of history //items"));
+
+			   
+
+// Use the string in your push_back
+info.configDefaultEntries.push_back(PluginConfigurationParameterEntry(HISTORYPURGER_CONFIGKEY_PURGEINTERVAL,
+        purgeIntervalStr,
+        "Interval between purges of history items"));
 	info.configDefaultEntries.push_back(PluginConfigurationParameterEntry(HISTORYPURGER_CONFIGKEY_MAXEVENTLOGSIZE, "2000", "Maximum number of event log entries to keep.  A value of zero will result in no purging of event log entries"));
 
 	try {

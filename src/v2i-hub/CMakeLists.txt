@@ -53,6 +53,8 @@ FIND_PACKAGE (${TMX_APPNAME}-plugin
                     ${CMAKE_CURRENT_SOURCE_DIR}/../${TMX_APPNAME}/Build
               PATH_SUFFIXES ${BUILD_SUB_DIR} ${BUILD_SUB_DIR}/${CMAKE_SYSTEM_PROCESSOR}
               REQUIRED)
+              
+find_package(Boost COMPONENTS system thread log chrono atomic regex filesystem program_options log_setup)
 
 MACRO (BuildTmxPlugin)
     STRING (TOLOWER "${PROJECT_NAME}" COMPONENT_NAME)

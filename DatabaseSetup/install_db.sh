@@ -3,7 +3,7 @@
 
 DBROOTUSER="root"
 
-DBROOTPASS="ivp"
+DBROOTPASS="hellovm"
 
 # Test out the connection to the server
 mysql -u$DBROOTUSER -p$DBROOTPASS --silent -e "SHOW STATUS WHERE Variable_name = 'Uptime' and Value > 0;"
@@ -11,7 +11,20 @@ mysql -u$DBROOTUSER -p$DBROOTPASS --silent -e "SHOW STATUS WHERE Variable_name =
 # Install the database
 DBUSER="IVP"
 DBPASS="ivp"
-mysql -u$DBROOTUSER -p$DBROOTPASS -e "CREATE DATABASE IF NOT EXISTS $DBUSER; GRANT ALL PRIVILEGES ON $DBUSER.* To '$DBUSER'@'localhost' IDENTIFIED BY '$DBPASS';"
+#mysql -u$DBROOTUSER -p$DBROOTPASS -e "CREATE DATABASE IF NOT EXISTS $DBUSER; GRANT ALL #PRIVILEGES ON $DBUSER.* To '$DBUSER'@'localhost' IDENTIFIED BY '$DBPASS';"
+
+# Create the database if it does not exist
+mysql -u$DBROOTUSER -p$DBROOTPASS -e "CREATE DATABASE IF NOT EXISTS $DBUSER;"
+
+# Create the user if it does not exist and set the password
+mysql -u$DBROOTUSER -p$DBROOTPASS -e "CREATE USER IF NOT EXISTS '$DBUSER'@'localhost' IDENTIFIED BY '$DBPASS';"
+
+# Grant privileges to the user for the database
+mysql -u$DBROOTUSER -p$DBROOTPASS -e "GRANT ALL PRIVILEGES ON $DBUSER.* TO '$DBUSER'@'localhost';"
+
+# Reload all the privileges
+mysql -u$DBROOTUSER -p$DBROOTPASS -e "FLUSH PRIVILEGES;"
+
 if [ -f ./localhost.sql ]; then
 	mysql -v -u$DBUSER -p$DBPASS < ./localhost.sql
 fi

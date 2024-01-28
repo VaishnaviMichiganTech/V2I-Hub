@@ -1,0 +1,1351 @@
+file /home/vaishnavi/V2I-Hub/gpsd-release-3.21/SConstruct,line 885:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking whether the C compiler works... 
+scons: Configure: ".sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0.c <-
+  |  |
+  |  |int main(void)
+  |  |{
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0_b483d49f8097e2e12d37327e9798464f.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0_b483d49f8097e2e12d37327e9798464f.o -c -O2 .sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -pthread... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_0.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_0.o -c -pthread -O2 .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_0_a212d82eb361b58fde84d7324fa175e6" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_0_a212d82eb361b58fde84d7324fa175e6 .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_0.o -L.
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether the C++ compiler works... 
+scons: Configure: ".sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_1.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_1.cpp <-
+  |  |
+  |  |int main(void)
+  |  |{
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_1_2c54d215617d5a80147c8ac1427eb6d4.o" is up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_1_2c54d215617d5a80147c8ac1427eb6d4.o -c -O2 -pthread .sconf_temp/conftest_737c003a897167642b70f8cdde8a0eaf_1.cpp
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file curses.h... 
+scons: Configure: ".sconf_temp/conftest_64700b81758e0e1eb4778e798b4407b3_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_64700b81758e0e1eb4778e798b4407b3_0.c <-
+  |  |
+  |  |#include <curses.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_64700b81758e0e1eb4778e798b4407b3_0_cbdd2104ea87b097045190b804762bbb.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_64700b81758e0e1eb4778e798b4407b3_0_cbdd2104ea87b097045190b804762bbb.o -c -pthread -O2 -pthread .sconf_temp/conftest_64700b81758e0e1eb4778e798b4407b3_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking pkg-config for ncurses... 
+scons: Configure: ".sconf_temp/conftest_b3334fdd9bde29954a69c36a37bb058b" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'ncurses'
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking pkg-config for tinfo... 
+scons: Configure: ".sconf_temp/conftest_bf402c66aeac1c8a444bf79f81185bf0" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'tinfo'
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking pkg-config for libusb-1.0... 
+scons: Configure: ".sconf_temp/conftest_bd64900325396be52bcd0c1c690adaf2" is up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'libusb-1.0'
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library librt... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0_c635ff4bd5ed1d54aa8fe151fec1dcca" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0_c635ff4bd5ed1d54aa8fe151fec1dcca -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.o -L. -lrt
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library libnsl... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.o -c -pthread -O2 -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1_bee496a2af874169f7ec4db3b4481f2f" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1_bee496a2af874169f7ec4db3b4481f2f -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.o -L. -lrt -lnsl
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library libsocket... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.o -c -pthread -O2 -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2_12b549e34567015e42e10ecaaaa015bf" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2_12b549e34567015e42e10ecaaaa015bf -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.o -L. -lrt -lnsl -lsocket
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C library libm... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.o -c -pthread -O2 -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.c
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3_b6715ed388115f93d1342d04e8aea7b8" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3_b6715ed388115f93d1342d04e8aea7b8 -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library libthr... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_4.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_4.o -c -pthread -O2 -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_4.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_4_950e8eaee79ad944038f32f949cc7103" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_4_950e8eaee79ad944038f32f949cc7103 -pthread .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_4.o -L. -lrt -lnsl -lm -lthr
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking pkg-config for dbus-1... 
+scons: Configure: Building ".sconf_temp/conftest_c33bc904a2ec5bab23b03d10d48d6f24" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'dbus-1'
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking pkg-config for bluez... 
+scons: Configure: Building ".sconf_temp/conftest_d191951bd0288a0fbb972177f1e10b9f" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'bluez'
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C type in_port_t... 
+scons: Configure: ".sconf_temp/conftest_1e23252307ce4a779589a7df48ecfafe_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1e23252307ce4a779589a7df48ecfafe_0.c <-
+  |  |
+  |  |
+  |  |#include <netinet/in.h>
+  |  |
+  |  |int main(void) {
+  |  |  if ((in_port_t *) 0)
+  |  |    return 0;
+  |  |  if (sizeof (in_port_t))
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1e23252307ce4a779589a7df48ecfafe_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1e23252307ce4a779589a7df48ecfafe_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_1e23252307ce4a779589a7df48ecfafe_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_1e23252307ce4a779589a7df48ecfafe_0_f7ad6f3b6ab68be613e0fd0da0c1c227" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1e23252307ce4a779589a7df48ecfafe_0_f7ad6f3b6ab68be613e0fd0da0c1c227 -pthread .sconf_temp/conftest_1e23252307ce4a779589a7df48ecfafe_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether SUN_LEN is declared... 
+scons: Configure: ".sconf_temp/conftest_a539fc8adf0233822f17c0e99773312d_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_a539fc8adf0233822f17c0e99773312d_0.c <-
+  |  |#include <sys/un.h>
+  |  |int main(void)
+  |  |{
+  |  |#ifndef SUN_LEN
+  |  |    (void) SUN_LEN;
+  |  |#endif
+  |  |    ;
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_a539fc8adf0233822f17c0e99773312d_0_5a3f087d07900ae982900bdeeb6f9953.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_a539fc8adf0233822f17c0e99773312d_0_5a3f087d07900ae982900bdeeb6f9953.o -c -pthread -O2 -pthread .sconf_temp/conftest_a539fc8adf0233822f17c0e99773312d_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file linux/can.h... 
+scons: Configure: ".sconf_temp/conftest_c8fab671489419f26f6e7a97b9bb512a_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_c8fab671489419f26f6e7a97b9bb512a_0.c <-
+  |  |
+  |  |#include <linux/can.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_c8fab671489419f26f6e7a97b9bb512a_0_7e84a4d51af83d97ac281168e8250094.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_c8fab671489419f26f6e7a97b9bb512a_0_7e84a4d51af83d97ac281168e8250094.o -c -pthread -O2 -pthread .sconf_temp/conftest_c8fab671489419f26f6e7a97b9bb512a_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler is C11... 
+scons: Configure: ".sconf_temp/conftest_1214d8f3d10ca58c9a108195a8b29f31_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1214d8f3d10ca58c9a108195a8b29f31_0.c <-
+  |  |
+  |  |        #if (__STDC_VERSION__ < 201112L)
+  |  |        #error Not C11
+  |  |        #endif
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_1214d8f3d10ca58c9a108195a8b29f31_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1214d8f3d10ca58c9a108195a8b29f31_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_1214d8f3d10ca58c9a108195a8b29f31_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_1214d8f3d10ca58c9a108195a8b29f31_0_60a7dc9ab08078f1ef01a66780507390" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1214d8f3d10ca58c9a108195a8b29f31_0_60a7dc9ab08078f1ef01a66780507390 -pthread .sconf_temp/conftest_1214d8f3d10ca58c9a108195a8b29f31_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether __STDC_NO_ATOMICS__ is declared... 
+scons: Configure: ".sconf_temp/conftest_2a50c67ae8e5bd8a49a8ac875d37d12d_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2a50c67ae8e5bd8a49a8ac875d37d12d_0.c <-
+  |  |
+  |  |int main(void)
+  |  |{
+  |  |#ifndef __STDC_NO_ATOMICS__
+  |  |    (void) __STDC_NO_ATOMICS__;
+  |  |#endif
+  |  |    ;
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: Building ".sconf_temp/conftest_2a50c67ae8e5bd8a49a8ac875d37d12d_0_12772de433cd6f5a722c8f667dfd6774.o" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2a50c67ae8e5bd8a49a8ac875d37d12d_0_12772de433cd6f5a722c8f667dfd6774.o -c -pthread -O2 -pthread .sconf_temp/conftest_2a50c67ae8e5bd8a49a8ac875d37d12d_0.c
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C header file stdatomic.h... 
+scons: Configure: ".sconf_temp/conftest_44879e13a615c64e4ea2dafad52998cd_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_44879e13a615c64e4ea2dafad52998cd_0.c <-
+  |  |
+  |  |#include <stdatomic.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_44879e13a615c64e4ea2dafad52998cd_0_7e490ec5f9198b6b85dba95955e90f96.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_44879e13a615c64e4ea2dafad52998cd_0_7e490ec5f9198b6b85dba95955e90f96.o -c -pthread -O2 -pthread .sconf_temp/conftest_44879e13a615c64e4ea2dafad52998cd_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether __ORDER_BIG_ENDIAN__ is declared... 
+scons: Configure: ".sconf_temp/conftest_6da9dba3208ceb2cf50cdd93e4f1630c_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_6da9dba3208ceb2cf50cdd93e4f1630c_0.c <-
+  |  |
+  |  |int main(void)
+  |  |{
+  |  |#ifndef __ORDER_BIG_ENDIAN__
+  |  |    (void) __ORDER_BIG_ENDIAN__;
+  |  |#endif
+  |  |    ;
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_6da9dba3208ceb2cf50cdd93e4f1630c_0_31ba7b6501734000b9f26c1d8a86a998.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_6da9dba3208ceb2cf50cdd93e4f1630c_0_31ba7b6501734000b9f26c1d8a86a998.o -c -pthread -O2 -pthread .sconf_temp/conftest_6da9dba3208ceb2cf50cdd93e4f1630c_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether __ORDER_LITTLE_ENDIAN__ is declared... 
+scons: Configure: ".sconf_temp/conftest_04e5e1b794ad6380d46e696cc2e895fb_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_04e5e1b794ad6380d46e696cc2e895fb_0.c <-
+  |  |
+  |  |int main(void)
+  |  |{
+  |  |#ifndef __ORDER_LITTLE_ENDIAN__
+  |  |    (void) __ORDER_LITTLE_ENDIAN__;
+  |  |#endif
+  |  |    ;
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_04e5e1b794ad6380d46e696cc2e895fb_0_bb70c01d2f248a694e01d5e5c1a9e441.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_04e5e1b794ad6380d46e696cc2e895fb_0_bb70c01d2f248a694e01d5e5c1a9e441.o -c -pthread -O2 -pthread .sconf_temp/conftest_04e5e1b794ad6380d46e696cc2e895fb_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether __BYTE_ORDER__ is declared... 
+scons: Configure: ".sconf_temp/conftest_adba526c6e6a6a62c0b684ea324da1fb_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_adba526c6e6a6a62c0b684ea324da1fb_0.c <-
+  |  |
+  |  |int main(void)
+  |  |{
+  |  |#ifndef __BYTE_ORDER__
+  |  |    (void) __BYTE_ORDER__;
+  |  |#endif
+  |  |    ;
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_adba526c6e6a6a62c0b684ea324da1fb_0_b0ab016f8245e1c4f3fed7d46084235a.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_adba526c6e6a6a62c0b684ea324da1fb_0_b0ab016f8245e1c4f3fed7d46084235a.o -c -pthread -O2 -pthread .sconf_temp/conftest_adba526c6e6a6a62c0b684ea324da1fb_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file arpa/inet.h... 
+scons: Configure: ".sconf_temp/conftest_eac0b45a3f98d43d8d94c652ecc64545_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_eac0b45a3f98d43d8d94c652ecc64545_0.c <-
+  |  |
+  |  |#include <arpa/inet.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_eac0b45a3f98d43d8d94c652ecc64545_0_3e94ff5a55709712031eec7d8f9fbe10.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_eac0b45a3f98d43d8d94c652ecc64545_0_3e94ff5a55709712031eec7d8f9fbe10.o -c -pthread -O2 -pthread .sconf_temp/conftest_eac0b45a3f98d43d8d94c652ecc64545_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file netdb.h... 
+scons: Configure: ".sconf_temp/conftest_00ba5ee1fa90cf6c54856ecba053f396_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_00ba5ee1fa90cf6c54856ecba053f396_0.c <-
+  |  |
+  |  |#include <netdb.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_00ba5ee1fa90cf6c54856ecba053f396_0_3dd2edac7c7432f27c46d72f24b99543.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_00ba5ee1fa90cf6c54856ecba053f396_0_3dd2edac7c7432f27c46d72f24b99543.o -c -pthread -O2 -pthread .sconf_temp/conftest_00ba5ee1fa90cf6c54856ecba053f396_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file netinet/in.h... 
+scons: Configure: ".sconf_temp/conftest_b687c21cc2d621328feffb679b2fe729_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_b687c21cc2d621328feffb679b2fe729_0.c <-
+  |  |
+  |  |#include <netinet/in.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_b687c21cc2d621328feffb679b2fe729_0_40046b23b3abc91b7e98d55facaae17c.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_b687c21cc2d621328feffb679b2fe729_0_40046b23b3abc91b7e98d55facaae17c.o -c -pthread -O2 -pthread .sconf_temp/conftest_b687c21cc2d621328feffb679b2fe729_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file netinet/ip.h... 
+scons: Configure: ".sconf_temp/conftest_485a756ad7bf7037874009d932627f20_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_485a756ad7bf7037874009d932627f20_0.c <-
+  |  |
+  |  |#include <netinet/ip.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_485a756ad7bf7037874009d932627f20_0_4219b8f099e00cdf15b9d89e5d78fdc1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_485a756ad7bf7037874009d932627f20_0_4219b8f099e00cdf15b9d89e5d78fdc1.o -c -pthread -O2 -pthread .sconf_temp/conftest_485a756ad7bf7037874009d932627f20_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file sys/sysmacros.h... 
+scons: Configure: ".sconf_temp/conftest_1ca2a846e010f72cf5b4e1d199c88616_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1ca2a846e010f72cf5b4e1d199c88616_0.c <-
+  |  |
+  |  |#include <sys/sysmacros.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1ca2a846e010f72cf5b4e1d199c88616_0_cf7e850f3e1a5cf4aa4d160f23747495.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1ca2a846e010f72cf5b4e1d199c88616_0_cf7e850f3e1a5cf4aa4d160f23747495.o -c -pthread -O2 -pthread .sconf_temp/conftest_1ca2a846e010f72cf5b4e1d199c88616_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file sys/socket.h... 
+scons: Configure: ".sconf_temp/conftest_f9916bc4cef0deb641ccb5dbc2af29c5_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_f9916bc4cef0deb641ccb5dbc2af29c5_0.c <-
+  |  |
+  |  |#include <sys/socket.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_f9916bc4cef0deb641ccb5dbc2af29c5_0_654569a26babf6b27b377e1271e46ce9.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_f9916bc4cef0deb641ccb5dbc2af29c5_0_654569a26babf6b27b377e1271e46ce9.o -c -pthread -O2 -pthread .sconf_temp/conftest_f9916bc4cef0deb641ccb5dbc2af29c5_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file sys/un.h... 
+scons: Configure: ".sconf_temp/conftest_47663d4d49558ed88ba82b61c1477bca_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_47663d4d49558ed88ba82b61c1477bca_0.c <-
+  |  |
+  |  |#include <sys/un.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_47663d4d49558ed88ba82b61c1477bca_0_e3bca0bd0b1c6e2b9561ef211bb96ff0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_47663d4d49558ed88ba82b61c1477bca_0_e3bca0bd0b1c6e2b9561ef211bb96ff0.o -c -pthread -O2 -pthread .sconf_temp/conftest_47663d4d49558ed88ba82b61c1477bca_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file syslog.h... 
+scons: Configure: ".sconf_temp/conftest_0004530a4788c9d4c06d13423248a90c_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0004530a4788c9d4c06d13423248a90c_0.c <-
+  |  |
+  |  |#include <syslog.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0004530a4788c9d4c06d13423248a90c_0_aa4efca10cdd1b32f34d0cfeb8ce98b4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0004530a4788c9d4c06d13423248a90c_0_aa4efca10cdd1b32f34d0cfeb8ce98b4.o -c -pthread -O2 -pthread .sconf_temp/conftest_0004530a4788c9d4c06d13423248a90c_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file termios.h... 
+scons: Configure: ".sconf_temp/conftest_38fa1db94e1254092a073704ad067b17_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_38fa1db94e1254092a073704ad067b17_0.c <-
+  |  |
+  |  |#include <termios.h>
+  |  |
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_38fa1db94e1254092a073704ad067b17_0_d8e0fa91752e3ff1c3e3a75a49a5aee3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_38fa1db94e1254092a073704ad067b17_0_d8e0fa91752e3ff1c3e3a75a49a5aee3.o -c -pthread -O2 -pthread .sconf_temp/conftest_38fa1db94e1254092a073704ad067b17_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file winsock2.h... 
+scons: Configure: ".sconf_temp/conftest_b0146fa219321f3980ecdb38c09ee40e_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_b0146fa219321f3980ecdb38c09ee40e_0.c <-
+  |  |
+  |  |#include <winsock2.h>
+  |  |
+  |  |
+  |
+scons: Configure: Building ".sconf_temp/conftest_b0146fa219321f3980ecdb38c09ee40e_0_00c737f80e3b82736268d960a0819ab5.o" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_b0146fa219321f3980ecdb38c09ee40e_0_00c737f80e3b82736268d960a0819ab5.o -c -pthread -O2 -pthread .sconf_temp/conftest_b0146fa219321f3980ecdb38c09ee40e_0.c
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking if sizeof(time_t) is 64 bits... 
+scons: Configure: ".sconf_temp/conftest_395fbc802bb35399ab57fd606f795274_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_395fbc802bb35399ab57fd606f795274_0.c <-
+  |  |
+  |  |        #include <time.h>
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            static int test_array[1 - 2 * ((long int) sizeof(time_t) < 8 )];
+  |  |            test_array[0] = 0;
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_395fbc802bb35399ab57fd606f795274_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_395fbc802bb35399ab57fd606f795274_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_395fbc802bb35399ab57fd606f795274_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_395fbc802bb35399ab57fd606f795274_0_5424d5fee0d02b537f06e743cff07f7c" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_395fbc802bb35399ab57fd606f795274_0_5424d5fee0d02b537f06e743cff07f7c -pthread .sconf_temp/conftest_395fbc802bb35399ab57fd606f795274_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function cfmakeraw()... 
+scons: Configure: ".sconf_temp/conftest_f7b5f67bd7836507a6b369cdb6d9cc4b_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_f7b5f67bd7836507a6b369cdb6d9cc4b_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char cfmakeraw();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(cfmakeraw)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_cfmakeraw) || defined (__stub___cfmakeraw)
+  |  |  fail fail fail
+  |  |#else
+  |  |  cfmakeraw();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_f7b5f67bd7836507a6b369cdb6d9cc4b_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_f7b5f67bd7836507a6b369cdb6d9cc4b_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_f7b5f67bd7836507a6b369cdb6d9cc4b_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_f7b5f67bd7836507a6b369cdb6d9cc4b_0_96b86dcaadd08d0a8650148835617cba" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_f7b5f67bd7836507a6b369cdb6d9cc4b_0_96b86dcaadd08d0a8650148835617cba -pthread .sconf_temp/conftest_f7b5f67bd7836507a6b369cdb6d9cc4b_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function clock_gettime()... 
+scons: Configure: ".sconf_temp/conftest_1bc8271dd0e1de39b4929ec72fdc5c32_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1bc8271dd0e1de39b4929ec72fdc5c32_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char clock_gettime();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(clock_gettime)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_clock_gettime) || defined (__stub___clock_gettime)
+  |  |  fail fail fail
+  |  |#else
+  |  |  clock_gettime();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1bc8271dd0e1de39b4929ec72fdc5c32_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1bc8271dd0e1de39b4929ec72fdc5c32_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_1bc8271dd0e1de39b4929ec72fdc5c32_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_1bc8271dd0e1de39b4929ec72fdc5c32_0_76b10c2d019cfb087b5495a5414f2e03" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1bc8271dd0e1de39b4929ec72fdc5c32_0_76b10c2d019cfb087b5495a5414f2e03 -pthread .sconf_temp/conftest_1bc8271dd0e1de39b4929ec72fdc5c32_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function daemon()... 
+scons: Configure: ".sconf_temp/conftest_538bb4c2c247c24047be57c16e02ed65_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_538bb4c2c247c24047be57c16e02ed65_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char daemon();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(daemon)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_daemon) || defined (__stub___daemon)
+  |  |  fail fail fail
+  |  |#else
+  |  |  daemon();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_538bb4c2c247c24047be57c16e02ed65_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_538bb4c2c247c24047be57c16e02ed65_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_538bb4c2c247c24047be57c16e02ed65_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_538bb4c2c247c24047be57c16e02ed65_0_e00bae2204aab72ba1c4de100a29dac8" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_538bb4c2c247c24047be57c16e02ed65_0_e00bae2204aab72ba1c4de100a29dac8 -pthread .sconf_temp/conftest_538bb4c2c247c24047be57c16e02ed65_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function fcntl()... 
+scons: Configure: ".sconf_temp/conftest_16adda4ae41479a56efde2a3df903904_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_16adda4ae41479a56efde2a3df903904_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char fcntl();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(fcntl)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_fcntl) || defined (__stub___fcntl)
+  |  |  fail fail fail
+  |  |#else
+  |  |  fcntl();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_16adda4ae41479a56efde2a3df903904_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_16adda4ae41479a56efde2a3df903904_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_16adda4ae41479a56efde2a3df903904_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_16adda4ae41479a56efde2a3df903904_0_bc45452466d0b84f1b28b40fce3a096b" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_16adda4ae41479a56efde2a3df903904_0_bc45452466d0b84f1b28b40fce3a096b -pthread .sconf_temp/conftest_16adda4ae41479a56efde2a3df903904_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function fork()... 
+scons: Configure: ".sconf_temp/conftest_1322aee9cbfab78c65f1b028f5aaa478_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_1322aee9cbfab78c65f1b028f5aaa478_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char fork();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(fork)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_fork) || defined (__stub___fork)
+  |  |  fail fail fail
+  |  |#else
+  |  |  fork();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_1322aee9cbfab78c65f1b028f5aaa478_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1322aee9cbfab78c65f1b028f5aaa478_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_1322aee9cbfab78c65f1b028f5aaa478_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_1322aee9cbfab78c65f1b028f5aaa478_0_277665a9a791e5d0a4b0a0d0248a8f08" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_1322aee9cbfab78c65f1b028f5aaa478_0_277665a9a791e5d0a4b0a0d0248a8f08 -pthread .sconf_temp/conftest_1322aee9cbfab78c65f1b028f5aaa478_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function getopt_long()... 
+scons: Configure: ".sconf_temp/conftest_2f351b26d8c15dd5623c0e44128ef740_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_2f351b26d8c15dd5623c0e44128ef740_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char getopt_long();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(getopt_long)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_getopt_long) || defined (__stub___getopt_long)
+  |  |  fail fail fail
+  |  |#else
+  |  |  getopt_long();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_2f351b26d8c15dd5623c0e44128ef740_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2f351b26d8c15dd5623c0e44128ef740_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_2f351b26d8c15dd5623c0e44128ef740_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_2f351b26d8c15dd5623c0e44128ef740_0_3657bd778c285636cb518638f2fd56d1" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_2f351b26d8c15dd5623c0e44128ef740_0_3657bd778c285636cb518638f2fd56d1 -pthread .sconf_temp/conftest_2f351b26d8c15dd5623c0e44128ef740_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function gmtime_r()... 
+scons: Configure: ".sconf_temp/conftest_74597470fb2abbc531e2add2fc7aa924_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_74597470fb2abbc531e2add2fc7aa924_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char gmtime_r();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(gmtime_r)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_gmtime_r) || defined (__stub___gmtime_r)
+  |  |  fail fail fail
+  |  |#else
+  |  |  gmtime_r();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_74597470fb2abbc531e2add2fc7aa924_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_74597470fb2abbc531e2add2fc7aa924_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_74597470fb2abbc531e2add2fc7aa924_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_74597470fb2abbc531e2add2fc7aa924_0_7f99d335047dceaaa0c1f1e6ee98fda7" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_74597470fb2abbc531e2add2fc7aa924_0_7f99d335047dceaaa0c1f1e6ee98fda7 -pthread .sconf_temp/conftest_74597470fb2abbc531e2add2fc7aa924_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function inet_ntop()... 
+scons: Configure: ".sconf_temp/conftest_0a3d13da819cf55f2cb342b83b66900c_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0a3d13da819cf55f2cb342b83b66900c_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char inet_ntop();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(inet_ntop)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_inet_ntop) || defined (__stub___inet_ntop)
+  |  |  fail fail fail
+  |  |#else
+  |  |  inet_ntop();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0a3d13da819cf55f2cb342b83b66900c_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0a3d13da819cf55f2cb342b83b66900c_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_0a3d13da819cf55f2cb342b83b66900c_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_0a3d13da819cf55f2cb342b83b66900c_0_0151a22775e6ae8dc8b505196f737526" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0a3d13da819cf55f2cb342b83b66900c_0_0151a22775e6ae8dc8b505196f737526 -pthread .sconf_temp/conftest_0a3d13da819cf55f2cb342b83b66900c_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function strlcat()... 
+scons: Configure: ".sconf_temp/conftest_e9a85f680406b618b830ea5d8bcbfa05_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_e9a85f680406b618b830ea5d8bcbfa05_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char strlcat();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(strlcat)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_strlcat) || defined (__stub___strlcat)
+  |  |  fail fail fail
+  |  |#else
+  |  |  strlcat();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_e9a85f680406b618b830ea5d8bcbfa05_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_e9a85f680406b618b830ea5d8bcbfa05_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_e9a85f680406b618b830ea5d8bcbfa05_0.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_e9a85f680406b618b830ea5d8bcbfa05_0_76d34cdfdc152a137e6a411be0dbddb0" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_e9a85f680406b618b830ea5d8bcbfa05_0_76d34cdfdc152a137e6a411be0dbddb0 -pthread .sconf_temp/conftest_e9a85f680406b618b830ea5d8bcbfa05_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C function strlcpy()... 
+scons: Configure: ".sconf_temp/conftest_657f70556315c34fe027010cd7c90946_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_657f70556315c34fe027010cd7c90946_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char strlcpy();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(strlcpy)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_strlcpy) || defined (__stub___strlcpy)
+  |  |  fail fail fail
+  |  |#else
+  |  |  strlcpy();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_657f70556315c34fe027010cd7c90946_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_657f70556315c34fe027010cd7c90946_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_657f70556315c34fe027010cd7c90946_0.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_657f70556315c34fe027010cd7c90946_0_30bdca933cf571f26dc09bd7c6b3e838" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_657f70556315c34fe027010cd7c90946_0_30bdca933cf571f26dc09bd7c6b3e838 -pthread .sconf_temp/conftest_657f70556315c34fe027010cd7c90946_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C function strptime()... 
+scons: Configure: ".sconf_temp/conftest_44d14f4d302ae5f4fb3d2a70bd564fba_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_44d14f4d302ae5f4fb3d2a70bd564fba_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char strptime();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(strptime)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_strptime) || defined (__stub___strptime)
+  |  |  fail fail fail
+  |  |#else
+  |  |  strptime();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_44d14f4d302ae5f4fb3d2a70bd564fba_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_44d14f4d302ae5f4fb3d2a70bd564fba_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_44d14f4d302ae5f4fb3d2a70bd564fba_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_44d14f4d302ae5f4fb3d2a70bd564fba_0_da14567381862b8e79e1302a3c715703" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_44d14f4d302ae5f4fb3d2a70bd564fba_0_da14567381862b8e79e1302a3c715703 -pthread .sconf_temp/conftest_44d14f4d302ae5f4fb3d2a70bd564fba_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C function sincos()... 
+scons: Configure: ".sconf_temp/conftest_0afbb4e1bfc206303c0e0935b291f4b6_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0afbb4e1bfc206303c0e0935b291f4b6_0.c <-
+  |  |
+  |  |
+  |  |#include <assert.h>
+  |  |
+  |  |#ifdef __cplusplus
+  |  |extern "C"
+  |  |#endif
+  |  |char sincos();
+  |  |
+  |  |#if _MSC_VER && !__INTEL_COMPILER
+  |  |    #pragma function(sincos)
+  |  |#endif
+  |  |
+  |  |int main(void) {
+  |  |#if defined (__stub_sincos) || defined (__stub___sincos)
+  |  |  fail fail fail
+  |  |#else
+  |  |  sincos();
+  |  |#endif
+  |  |
+  |  |  return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0afbb4e1bfc206303c0e0935b291f4b6_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0afbb4e1bfc206303c0e0935b291f4b6_0.o -c -pthread -O2 -pthread .sconf_temp/conftest_0afbb4e1bfc206303c0e0935b291f4b6_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_0afbb4e1bfc206303c0e0935b291f4b6_0_49eceb82f65429377873ff67cff384b4" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0afbb4e1bfc206303c0e0935b291f4b6_0_49eceb82f65429377873ff67cff384b4 -pthread .sconf_temp/conftest_0afbb4e1bfc206303c0e0935b291f4b6_0.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file sys/timepps.h... 
+scons: Configure: ".sconf_temp/conftest_d5cb2045386ba21d7192b93dbc6cac33_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_d5cb2045386ba21d7192b93dbc6cac33_0.c <-
+  |  |#include <sys/types.h>
+  |  |#include <sys/time.h>
+  |  |
+  |  |#include <sys/timepps.h>
+  |  |
+  |  |
+  |
+scons: Configure: Building ".sconf_temp/conftest_d5cb2045386ba21d7192b93dbc6cac33_0_58cffe566c8f9ddef10e65cd6bcfa954.o" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_d5cb2045386ba21d7192b93dbc6cac33_0_58cffe566c8f9ddef10e65cd6bcfa954.o -c -pthread -O2 -pthread .sconf_temp/conftest_d5cb2045386ba21d7192b93dbc6cac33_0.c
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking whether TIOCMIWAIT is declared... 
+scons: Configure: ".sconf_temp/conftest_62d9afc174828a834a4e127d5c4b7012_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_62d9afc174828a834a4e127d5c4b7012_0.c <-
+  |  |#include <sys/ioctl.h>
+  |  |int main(void)
+  |  |{
+  |  |#ifndef TIOCMIWAIT
+  |  |    (void) TIOCMIWAIT;
+  |  |#endif
+  |  |    ;
+  |  |    return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_62d9afc174828a834a4e127d5c4b7012_0_c23cee4d9d3f1b57b89ede28e238ef40.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_62d9afc174828a834a4e127d5c4b7012_0_c23cee4d9d3f1b57b89ede28e238ef40.o -c -pthread -O2 -pthread .sconf_temp/conftest_62d9afc174828a834a4e127d5c4b7012_0.c
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking that xsltproc can make man pages... 
+scons: Configure: Building ".sconf_temp/conftest_42bf4c7538f2d248ba7fc0385c67bb7f" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |xsltproc --encoding UTF-8 --output man/foo.1 --nonet --noout 'http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl' man/xmltest.xml
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking pkg-config for QtNetwork... 
+scons: Configure: Building ".sconf_temp/conftest_bd851af6e0152c65c7f3b86237ad02c2" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |pkg-config --exists 'QtNetwork'
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking if compiler accepts -Wall... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_1.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_1.o -c -pthread -Wall -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_1.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_1_30202662315bb9f56447f0c276c08fd9" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_1_30202662315bb9f56447f0c276c08fd9 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_1.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wcast-align... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_2.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_2.o -c -pthread -Wall -Wcast-align -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_2.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_2_634a5a24703dbb45011db7bd202dd486" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_2_634a5a24703dbb45011db7bd202dd486 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_2.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wextra... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_3.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_3.o -c -pthread -Wall -Wcast-align -Wextra -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_3.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_3_24b7f4a3aac4b60faa1bc596a552102e" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_3_24b7f4a3aac4b60faa1bc596a552102e -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_3.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wimplicit-fallthrough... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_4.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_4.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_4.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_4_7e5dac65e896c60eec0f04dae693c348" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_4_7e5dac65e896c60eec0f04dae693c348 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_4.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wmissing-declarations... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_5.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_5.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_5.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -Wmissing-declarations -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_5.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_5_0821d194222ff222bd1723c81dfbf464" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_5_0821d194222ff222bd1723c81dfbf464 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_5.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wmissing-prototypes... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_6.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_6.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_6.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -Wmissing-declarations -Wmissing-prototypes -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_6.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_6_114bb54ab751b084d4f25205b6f6e99d" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_6_114bb54ab751b084d4f25205b6f6e99d -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_6.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wno-missing-field-initializers... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_7.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_7.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_7.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_7.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -Wmissing-declarations -Wmissing-prototypes -Wno-missing-field-initializers -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_7.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_7_28c04f69fee82601220824085a59fe95" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_7_28c04f69fee82601220824085a59fe95 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_7.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wno-uninitialized... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_8.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_8.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_8.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_8.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -Wmissing-declarations -Wmissing-prototypes -Wno-missing-field-initializers -Wno-uninitialized -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_8.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_8_50929c33f7efd857da60b8c867bb0f20" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_8_50929c33f7efd857da60b8c867bb0f20 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_8.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wpointer-arith... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_9.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_9.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_9.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_9.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -Wmissing-declarations -Wmissing-prototypes -Wno-missing-field-initializers -Wno-uninitialized -Wpointer-arith -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_9.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_9_ca3bb94ec45b8c1355878b833091c20f" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_9_ca3bb94ec45b8c1355878b833091c20f -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_9.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wreturn-type... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_10.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_10.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_10.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_10.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -Wmissing-declarations -Wmissing-prototypes -Wno-missing-field-initializers -Wno-uninitialized -Wpointer-arith -Wreturn-type -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_10.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_10_d05c068e92cda5cf836f49f40bbc09fa" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_10_d05c068e92cda5cf836f49f40bbc09fa -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_10.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wstrict-prototypes... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_11.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_11.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_11.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_11.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -Wmissing-declarations -Wmissing-prototypes -Wno-missing-field-initializers -Wno-uninitialized -Wpointer-arith -Wreturn-type -Wstrict-prototypes -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_11.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_11_4ac8559be6beeb95c34986c12228cf0e" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_11_4ac8559be6beeb95c34986c12228cf0e -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_11.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking if compiler accepts -Wvla... 
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_12.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_12.c <-
+  |  |
+  |  |        int main(int argc, char **argv) {
+  |  |            (void) argc; (void) argv;
+  |  |            return 0;
+  |  |        }
+  |  |    
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_12.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_12.o -c -pthread -Wall -Wcast-align -Wextra -Wimplicit-fallthrough -Wmissing-declarations -Wmissing-prototypes -Wno-missing-field-initializers -Wno-uninitialized -Wpointer-arith -Wreturn-type -Wstrict-prototypes -Wvla -O2 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_12.c
+  |
+scons: Configure: ".sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_12_69bb8e25162ccdae74744bbf739a0432" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_12_69bb8e25162ccdae74744bbf739a0432 -pthread .sconf_temp/conftest_5be7df83735e8c2372f3c1ad9ba4a548_12.o -L. -lrt -lnsl -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking whether python program exists...
+scons: Configure: no
+
+
